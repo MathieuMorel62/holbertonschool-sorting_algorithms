@@ -12,7 +12,6 @@
 void quick_sort_recursive(int *array, size_t size, int low, int high)
 {
 	int pivot;
-
 	/* If the lower bound is less than the upper bound, */
 	/* then there are*elements in the partition that need to be sorted.*/
 	if (low < high)
@@ -45,6 +44,16 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 	/* Set the pivot element to the last element in the partition */
 	pivot = array[high];
 
+	/* Check if all elements in the array are equal to the pivot */
+	for (i = low; i < high; i++)
+	{
+		if (array[i] != pivot)
+			break;
+	}
+	/* If all elements are equal, return the pivot index */
+	if (i == high)
+		return high;
+
 	/* Set the index of the first element to the lower bound */
 	i = low;
     /* Iterate over the elements in the partition */
@@ -62,14 +71,12 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 			i++;
 		}
 	}
-
 	/* Swap the pivot element with the element at index i */
 	if (i != high)
 	{
 		swap(&array[i], &array[high]);
 		print_array(array, size);
 	}
-
 	/* Return the index of the pivot element */
 	return (i);
 }
@@ -85,7 +92,6 @@ void quick_sort(int *array, size_t size)
 	/* Return if the array is NULL or has fewer than 2 elements */
 	if (array == NULL || size < 2)
 		return;
-
 	/* Call the recursive function to sort the array */
 	quick_sort_recursive(array, size, 0, size - 1);
 }
@@ -98,9 +104,7 @@ void quick_sort(int *array, size_t size)
  */
 void swap(int *a, int *b)
 {
-	int temp;
-
-	temp = *a;
+	int temp = *a;
 	*a = *b;
 	*b = temp;
 }

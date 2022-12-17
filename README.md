@@ -120,6 +120,11 @@ Write in the file `0-O`, the big O notations of the time complexity of the Bubbl
 - in the average case
 - in the worst case
 - [File 0-O](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/0-O)
+
+<details>
+<summary> File Compilation / test </summary>
+<br>
+
 ```
 alex@/tmp/sort$ cat 0-main.c 
 #include <stdio.h>
@@ -172,6 +177,7 @@ alex@/tmp/sort$ ./bubble
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$ 
 ```
+</details>
 --------------------------
 
 #### [1. Insertion Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/1-insertion_sort_list.c)
@@ -189,6 +195,11 @@ Write in the file `1-O`, the big O notations of the time complexity of the Inser
 - in the average case
 - in the worst case
 - [File 1-O](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/1-O)
+
+<details>
+<summary> File Compilation / test </summary>
+<br>
+
 ```
 alex@/tmp/sort$ cat 1-main.c
 #include <stdio.h>
@@ -276,6 +287,7 @@ alex@/tmp/sort$ ./insertion
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$
 ```
+</details>
 --------------------------------
 
 #### [2. Selection Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/2-selection_sort.c)
@@ -292,6 +304,11 @@ Write in the file `2-O`, the big O notations of the time complexity of the Selec
 - in the average case
 - in the worst case
 - [File 2-O](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/2-O)
+
+<details>
+<summary> File Compilation / test </summary>
+<br>
+
 ```
 alex@/tmp/sort$ cat 2-main.c
 #include <stdio.h>
@@ -330,6 +347,7 @@ alex@/tmp/sort$ ./select
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$
 ```
+</details>
 --------------------------
 
 #### [3. Quick Sort](url)
@@ -348,6 +366,11 @@ Write in the file `3-O`, the big O notations of the time complexity of the Quick
 - in the average case
 - in the worst case
 - [File 3-O](url)
+
+<details>
+<summary> File Compilation / test </summary>
+<br>
+
 ```
 alex@/tmp/sort$ cat 3-main.c
 #include <stdio.h>
@@ -386,7 +409,10 @@ alex@/tmp/sort$ ./quick
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$
 ```
+</details>
+
 -------------------------
+
 ## Authors
 
 - Mathieu Morel [@Github](https://github.com/MathieuMorel62)

@@ -40,7 +40,6 @@ void quick_sort_recursive(int *array, size_t size, int low, int high)
 int lomuto_partition(int *array, size_t size, int low, int high)
 {
 	int pivot, i, j;
-
 	/* Set the pivot element to the last element in the partition */
 	pivot = array[high];
 
@@ -52,10 +51,11 @@ int lomuto_partition(int *array, size_t size, int low, int high)
 	}
 	/* If all elements are equal, return the pivot index */
 	if (i == high)
-		return high;
+		return (high);
 
 	/* Set the index of the first element to the lower bound */
 	i = low;
+
     /* Iterate over the elements in the partition */
 	for (j = low; j < high; j++)
 	{

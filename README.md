@@ -103,6 +103,7 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 - [Random.org](https://www.random.org/integer-sets/)
 
 -----------------------
+
 # Tasks
 
 #### [0. Bubble Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/0-bubble_sort.c)
@@ -178,6 +179,7 @@ alex@/tmp/sort$ ./bubble
 alex@/tmp/sort$ 
 ```
 </details>
+ 
 --------------------------
 
 #### [1. Insertion Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/1-insertion_sort_list.c)
@@ -288,6 +290,7 @@ alex@/tmp/sort$ ./insertion
 alex@/tmp/sort$
 ```
 </details>
+ 
 --------------------------------
 
 #### [2. Selection Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/2-selection_sort.c)
@@ -348,9 +351,10 @@ alex@/tmp/sort$ ./select
 alex@/tmp/sort$
 ```
 </details>
+
 --------------------------
 
-#### [3. Quick Sort](url)
+#### [3. Quick Sort](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/3-quick_sort.c)
 [![img](https://prepinsta.com/wp-content/uploads/2020/05/Quick-Sort-in-C-Example-–-2-2048x1840.png)](https://youtu.be/ywWBy6J5gz8)
 
 Write a function that sorts an array of integers in ascending order using the [Quick sort](https://en.wikipedia.org/wiki/Quicksort) algorithm
@@ -365,7 +369,7 @@ Write in the file `3-O`, the big O notations of the time complexity of the Quick
 - in the best case
 - in the average case
 - in the worst case
-- [File 3-O](url)
+- [File 3-O](https://github.com/MathieuMorel62/holbertonschool-sorting_algorithms/blob/main/3-O)
 
 <details>
 <summary> File Compilation / test </summary>
